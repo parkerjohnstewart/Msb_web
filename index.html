@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maximum Senior Benefits</title>
+    <meta name="description" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Source+Sans+3:wght@400;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content-config.js"></script>
+    <script type="application/ld+json" data-site-schema></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body data-page="home">
+    <div data-header-root></div>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="lead-block">
+            <span class="eyebrow" data-content="home.hero.eyebrow"></span>
+            <h1 data-content="home.hero.title"></h1>
+            <p data-content="home.hero.body"></p>
+            <div class="button-row">
+              <a class="btn btn-primary" href="contact.html" data-content="home.hero.primary"></a>
+              <a class="btn btn-secondary" data-config-href="phoneHref" href="tel:+16155550148"><span data-content="home.hero.secondary"></span> <span data-config="phoneDisplay"></span></a>
+            </div>
+            <p class="note" data-content="home.hero.note"></p>
+          </div>
+          <div class="hero-card">
+              <img
+                data-config-src="heroImage"
+                src="assets/hero_parker2.png"
+                data-content-alt="home.hero.imageAlt"
+                alt=""
+              />
+          </div>
+        </div>
+      </section>
+
+      <section class="section surface">
+        <div class="container">
+          <div class="lead-block">
+            <span class="eyebrow" data-content="home.audiences.eyebrow"></span>
+            <h2 data-content="home.audiences.title"></h2>
+          </div>
+          <div class="simple-grid centered-card-grid" style="margin-top: 1.25rem;" data-render="home.audiences.cards"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="lead-block">
+            <span class="eyebrow" data-content="home.basics.eyebrow"></span>
+            <h2 data-content="home.basics.title"></h2>
+            <p data-content="home.basics.subtitle"></p>
+          </div>
+          <div class="simple-grid centered-card-grid" style="margin-top: 1.25rem;" data-render="home.basics.cards"></div>
+          <a class="link-line" href="medicare.html" data-content="home.basics.link"></a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container banner">
+          <h2 data-content="home.banner.title"></h2>
+          <p data-content="home.banner.body"></p>
+          <div class="button-row">
+            <a class="btn btn-primary" href="contact.html" data-content="home.banner.primary"></a>
+            <a class="btn btn-secondary" data-config-href="phoneHref" href="tel:+16155550148" data-content="home.banner.secondary"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-footer-root></div>
+  </body>
+</html>

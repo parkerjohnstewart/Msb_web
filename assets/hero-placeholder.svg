@@ -1,0 +1,23 @@
+<svg width="1400" height="1600" viewBox="0 0 1400 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1600" rx="80" fill="#EFE7DC"/>
+  <rect x="80" y="80" width="1240" height="1440" rx="56" fill="url(#paint0_linear)"/>
+  <circle cx="980" cy="340" r="132" fill="#DDEAE4"/>
+  <rect x="160" y="180" width="560" height="96" rx="26" fill="#FFFFFF" fill-opacity="0.84"/>
+  <text x="208" y="242" fill="#23493F" font-family="Arial, sans-serif" font-size="40" font-weight="700">Replace with local hero image</text>
+  <rect x="170" y="1120" width="1060" height="250" rx="36" fill="#FFFFFF" fill-opacity="0.72"/>
+  <text x="230" y="1208" fill="#163129" font-family="Arial, sans-serif" font-size="46" font-weight="700">Use a calm portrait in a real local setting</text>
+  <text x="230" y="1278" fill="#50645D" font-family="Arial, sans-serif" font-size="32">Avoid generic stock insurance imagery.</text>
+  <circle cx="530" cy="720" r="178" fill="#E2C9AE"/>
+  <path d="M258 1330C286 1040 415 884 560 884C714 884 830 1036 852 1330H258Z" fill="#D9C1A6"/>
+  <path d="M366 1330C378 1116 462 1018 560 1018C659 1018 742 1116 754 1330H366Z" fill="#315E51"/>
+  <circle cx="470" cy="706" r="16" fill="#654B39"/>
+  <circle cx="594" cy="706" r="16" fill="#654B39"/>
+  <path d="M476 798C505 822 560 822 590 798" stroke="#8B6A52" stroke-width="18" stroke-linecap="round"/>
+  <path d="M378 592C424 524 499 490 571 502C645 515 706 556 734 624C700 596 650 575 590 567C499 555 430 576 378 592Z" fill="#4B372A"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="104" y1="112" x2="1240" y2="1480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F1"/>
+      <stop offset="1" stop-color="#E9F1ED"/>
+    </linearGradient>
+  </defs>
+</svg>

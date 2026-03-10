@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maximum Senior Benefits</title>
+    <meta name="description" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Source+Sans+3:wght@400;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content-config.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body data-page="medicare">
+    <div data-header-root></div>
+
+    <main>
+      <section class="hero">
+        <div class="container page-grid">
+          <div class="lead-block">
+            <span class="eyebrow" data-content="medicare.hero.eyebrow"></span>
+            <h1 data-content="medicare.hero.title"></h1>
+            <p data-content="medicare.hero.body"></p>
+          </div>
+          <div class="page-card page-card-side">
+            <img
+              data-config-src="medicareImage"
+              src="assets/medicare-card.png"
+              data-content-alt="medicare.overview.imageAlt"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container stack">
+          <div class="stack" data-render="medicare.overview.cards"></div>
+          <div class="button-row button-row-center">
+            <a
+              class="btn btn-primary btn-enroll"
+              data-config-href="enrollNowUrl"
+              href="https://example.com/enroll"
+              data-content="medicare.overview.enrollLabel"
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container banner">
+          <h2 data-content="medicare.banner.title"></h2>
+          <p data-content="medicare.banner.body"></p>
+          <div class="button-row">
+            <a class="btn btn-primary" href="contact.html" data-content="medicare.banner.primary"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-footer-root></div>
+  </body>
+</html>

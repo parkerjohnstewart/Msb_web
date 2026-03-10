@@ -1,0 +1,20 @@
+<svg width="1400" height="1100" viewBox="0 0 1400 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1100" rx="72" fill="#F0E9DE"/>
+  <rect x="74" y="74" width="1252" height="952" rx="52" fill="url(#paint0_linear)"/>
+  <rect x="146" y="140" width="470" height="82" rx="22" fill="#FFFFFF" fill-opacity="0.84"/>
+  <text x="188" y="194" fill="#23493F" font-family="Arial, sans-serif" font-size="34" font-weight="700">Replace with agent or office photo</text>
+  <rect x="194" y="634" width="1012" height="250" rx="36" fill="#FFFFFF" fill-opacity="0.68"/>
+  <text x="260" y="724" fill="#163129" font-family="Arial, sans-serif" font-size="44" font-weight="700">Use a welcoming, local image with soft natural light</text>
+  <text x="260" y="792" fill="#50645D" font-family="Arial, sans-serif" font-size="30">Aim for credibility and warmth, not stock-photo energy.</text>
+  <rect x="340" y="316" width="700" height="236" rx="34" fill="#F9F5EE"/>
+  <rect x="408" y="254" width="560" height="94" rx="28" fill="#DDEAE4"/>
+  <rect x="470" y="238" width="96" height="40" rx="20" fill="#B88B4B"/>
+  <rect x="548" y="440" width="320" height="24" rx="12" fill="#D2DFD8"/>
+  <rect x="470" y="484" width="470" height="20" rx="10" fill="#D2DFD8"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="106" y1="94" x2="1268" y2="1026" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F1"/>
+      <stop offset="1" stop-color="#E6EFEB"/>
+    </linearGradient>
+  </defs>
+</svg>

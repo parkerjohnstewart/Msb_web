@@ -1,0 +1,23 @@
+<svg width="1400" height="1000" viewBox="0 0 1400 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1000" rx="64" fill="#F2ECE3"/>
+  <rect x="70" y="70" width="1260" height="860" rx="46" fill="url(#paint0_linear)"/>
+  <circle cx="1140" cy="220" r="110" fill="#DCEAE5"/>
+  <rect x="140" y="130" width="500" height="82" rx="22" fill="#FFFFFF" fill-opacity="0.84"/>
+  <text x="182" y="184" fill="#23493F" font-family="Arial, sans-serif" font-size="34" font-weight="700">Replace with consultation image</text>
+  <rect x="786" y="468" width="276" height="196" rx="28" fill="#FFFFFF" fill-opacity="0.75"/>
+  <circle cx="460" cy="510" r="132" fill="#E1C9AF"/>
+  <path d="M240 840C272 656 352 594 458 594C566 594 654 660 684 840H240Z" fill="#315E51"/>
+  <circle cx="902" cy="466" r="110" fill="#E8D7C3"/>
+  <path d="M736 814C760 662 830 598 906 598C1006 598 1078 674 1090 814H736Z" fill="#D1B89A"/>
+  <path d="M784 814C790 702 840 648 906 648C972 648 1022 702 1028 814H784Z" fill="#7E968B"/>
+  <rect x="602" y="502" width="182" height="118" rx="22" fill="#FFFFFF"/>
+  <rect x="628" y="530" width="132" height="18" rx="9" fill="#D8E5DF"/>
+  <rect x="628" y="564" width="118" height="18" rx="9" fill="#D8E5DF"/>
+  <rect x="628" y="598" width="86" height="18" rx="9" fill="#D8E5DF"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="96" y1="96" x2="1248" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F1"/>
+      <stop offset="1" stop-color="#E8F0EC"/>
+    </linearGradient>
+  </defs>
+</svg>

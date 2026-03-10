@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maximum Senior Benefits</title>
+    <meta name="description" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Source+Sans+3:wght@400;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content-config.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body data-page="contact">
+    <div data-header-root></div>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="lead-block">
+            <span class="eyebrow" data-content="contact.hero.eyebrow"></span>
+            <h1 data-content="contact.hero.title"></h1>
+            <p data-content="contact.hero.body"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid-minimal">
+          <div class="stack">
+            <div class="page-card">
+              <img
+                data-config-src="headshotImage"
+                src="assets/headshot.jpg"
+                data-content-alt="contact.cards.headshotAlt"
+                alt=""
+              />
+            </div>
+            <article class="contact-card">
+              <h3 data-content="contact.cards.callTitle"></h3>
+              <p><a class="contact-link" data-config-href="phoneHref" href="tel:+16155550148"><span data-config="phoneDisplay"></span></a></p>
+            </article>
+            <article class="contact-card">
+              <h3 data-content="contact.cards.emailTitle"></h3>
+              <p><a class="contact-link" data-config-href="emailHref" href="mailto:hello@examplemedicare.com"><span data-config="email"></span></a></p>
+            </article>
+            <article class="contact-card">
+              <h3 data-content="contact.cards.bookTitle"></h3>
+              <p data-content="contact.cards.bookBody"></p>
+              <div class="button-row">
+                <a class="btn btn-primary" data-calendly-button href="https://calendly.com/your-calendly-link/medicare-consultation" data-content="contact.cards.bookButton"></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="stack">
+            <div class="calendly-shell">
+              <div class="calendly-inline-widget" data-calendly-inline></div>
+            </div>
+            <div>
+              <a
+                class="link-line"
+                data-config-href="calendlyUrl"
+                href="https://calendly.com/your-calendly-link/medicare-consultation"
+                target="_blank"
+                rel="noreferrer"
+                data-content="contact.cards.directLink"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-footer-root></div>
+  </body>
+</html>
