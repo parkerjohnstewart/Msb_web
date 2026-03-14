@@ -70,7 +70,7 @@ window.SITE_DATA = {
     home: {
       hero: {
         eyebrow: "Local Medicare guidance",
-        title: "Medicare Questions? We've Got Answers",
+        title: "Medicare Questions? We've Got Answers.",
         body: `Work with a licensed Medicare agent to compare Medicare Advantage, Medicare Supplement, and Prescription Drug Plan options available in your area.`,
         primary: "Book a Free In-Home Consultation",
         secondary: "Call / Text ",
