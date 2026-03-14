@@ -483,6 +483,12 @@ button {
   grid-template-columns: minmax(0, 1.2fr) minmax(240px, 0.8fr);
 }
 
+.footer-bottom {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
 .footer-card {
   background: rgba(255, 255, 255, 0.05);
   border-color: rgba(255, 255, 255, 0.1);
@@ -495,7 +501,7 @@ button {
 }
 
 .footer-small {
-  margin-top: 1rem;
+  margin: 0.5rem 0 0;
   font-size: 0.94rem;
   color: rgba(255, 255, 255, 0.72);
 }

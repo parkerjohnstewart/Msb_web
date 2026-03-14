@@ -48,7 +48,7 @@ function buildHeader(pageKey) {
 }
 
 function buildFooter() {
-  const disclaimers = [SITE_CONFIG.disclaimerShort, SITE_CONFIG.disclaimerLong, SITE_CONFIG.licenseInfo]
+  const footerNotes = [SITE_CONFIG.disclaimerShort, SITE_CONFIG.disclaimerLong, SITE_CONFIG.licenseInfo]
     .filter(Boolean)
     .map((text) => `<p class="footer-small">${text}</p>`)
     .join("");
@@ -60,7 +60,6 @@ function buildFooter() {
           <div class="footer-card">
             <h3>${SITE_CONFIG.agencyName}</h3>
             <p>${SITE_CONFIG.serviceArea}</p>
-            ${disclaimers}
           </div>
           <div class="footer-card">
             <h3>${SITE_LABELS.footer?.contact || "Contact"}</h3>
@@ -68,6 +67,9 @@ function buildFooter() {
             <p><a href="${SITE_CONFIG.emailHref}">${SITE_CONFIG.email}</a></p>
             <p>${SITE_CONFIG.officeHours}</p>
           </div>
+        </div>
+        <div class="footer-bottom">
+          ${footerNotes}
         </div>
       </div>
     </footer>

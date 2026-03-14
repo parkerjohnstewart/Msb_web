@@ -8,9 +8,9 @@ const SITE = {
   textHref: "sms:+14793510184",
   email: "parkerstewart@elitemsb.com",
   emailHref: "mailto:parkerstewart@elitemsb.com",
-  calendlyUrl: "https://calendly.com/your-calendly-link/medicare-consultation",
-  enrollNowUrl: "https://example.com/enroll",
-  formEndpoint: "https://formspree.io/f/your-form-id",
+  calendlyUrl: "https://calendly.com/parkerjohnstewart/30min",
+  enrollNowUrl: "https://www.sunfirematrix.com/app/consumer/yourmedicare/19049562/",
+  formEndpoint: "",
   licenseInfo: "License No: 19049562 (AR, OK, MO)",
   disclaimerShort: "This website is not affiliated with or endorsed by the U.S. government or the federal Medicare program.",
   disclaimerLong: "",
@@ -41,21 +41,21 @@ window.SITE_DATA = {
       title: "Medicare Help Made Simple | Maximum Senior Benefits",
       description: "Simple local Medicare guidance for people turning 65, reviewing plans, or helping a parent compare options.",
       ogTitle: "Medicare Help Made Simple | Maximum Senior Benefits",
-      ogDescription: "Short, clear, local Medicare guidance with an easy path to book a consultation.",
+      ogDescription: "Local Medicare guidance for Arkansas, Oklahoma, and Missouri with a simple path to book a consultation.",
       ogImage: SITE.heroImage
     },
     about: {
       title: "About | Maximum Senior Benefits",
       description: "Meet the local Medicare advisor behind Maximum Senior Benefits.",
       ogTitle: "About | Maximum Senior Benefits",
-      ogDescription: "Short, local, trustworthy Medicare advisor introduction.",
+      ogDescription: "Meet Parker Stewart and learn about his personal approach to Medicare guidance.",
       ogImage: SITE.familyImage
     },
     medicare: {
       title: "Medicare | Maximum Senior Benefits",
       description: "A short, plain-English Medicare overview covering the main plan paths and enrollment timing.",
       ogTitle: "Medicare | Maximum Senior Benefits",
-      ogDescription: "Short, neutral Medicare guidance in plain English.",
+      ogDescription: "Plain-English Medicare guidance covering Advantage, Supplement, and Part D options.",
       ogImage: SITE.medicareImage
     },
     contact: {
@@ -71,31 +71,32 @@ window.SITE_DATA = {
       hero: {
         eyebrow: "Local Medicare guidance",
         title: "Medicare Questions? We've Got Answers",
-        body: `Work with a licensed Medicare agent to review Medicare Advantage, Medicare Supplement, and Prescription Drug Plans available in your area.`,
-        primary: "Book a No Obligation Consultation",
-        secondary: "Call / Text",
+        body: `Work with a licensed Medicare agent to compare Medicare Advantage, Medicare Supplement, and Prescription Drug Plan options available in your area.`,
+        primary: "Book a Free In-Home Consultation",
+        secondary: "Call / Text ",
         note: SITE.serviceArea,
         imageAlt: "Photo of the advisor helping a local couple."
       },
       audiences: {
         eyebrow: "Who we help",
-        title: "Guidance for those who need Medicare help the most.",
+        // title: "Guidance for those who need Medicare help the most.",
+        title: "Medicare Help for Every Stage",
         cards: [
           {
             title: "Turning 65",
-            body: "Get clear help comparing your first Medicare options."
+            body: "Enrolling in Medicare for the first time."
           },
           {
-            title: "Already on Medicare",
-            body: "Review current coverage, costs, and plan changes."
+            title: "Retiring",
+            body: "Leaving employer coverage."
           },
           {
-            title: "Helping a parent",
-            body: "Make it easier to understand the choices together."
+            title: "Annual Enrollment Period",
+            body: "Reviewing plans during the Annual Enrollment Period."
           },
           {
-            title: "Still working",
-            body: "Understand how employer coverage and Medicare work together."
+            title: "Lower Prescription Costs",
+            body: "Looking to lower prescription drug costs."
           }
         ]
       },
@@ -107,15 +108,15 @@ window.SITE_DATA = {
         cards: [
           {
             title: "Medicare Advantage",
-            body: ""
+            body: "A bundled alternative to Original Medicare that may include medical, hospital, and prescription coverage in one plan."
           },
           {
             title: "Medicare Supplement",
-            body: ""
+            body: "Coverage designed to help pay out-of-pocket costs that Original Medicare does not fully cover."
           },
           {
             title: "Prescription Drug",
-            body: ""
+            body: "Standalone Part D plans that help cover medications and lower ongoing prescription costs."
           }
         ]
       },
@@ -138,7 +139,7 @@ window.SITE_DATA = {
       },
       banner: {
         title: "Questions are welcome.",
-        body: "Keep this page short, credible, and focused on one next step: booking a consultation.",
+        body: "Parker takes a personal, educational approach so clients can understand their Medicare options and move forward with confidence.",
         primary: "Book Consultation"
       }
     },
@@ -146,7 +147,7 @@ window.SITE_DATA = {
       hero: {
         eyebrow: "Medicare made simple",
         title: "A short overview of the main Medicare choices.",
-        body: "Keep this page neutral and simple. Explain the basics, then invite people to book a consultation for personal guidance."
+        body: "Learn the basics of the main Medicare paths, then book a consultation for guidance tailored to your doctors, prescriptions, and budget."
       },
       overview: {
         cards: [
@@ -179,8 +180,8 @@ window.SITE_DATA = {
     contact: {
       hero: {
         eyebrow: "Contact",
-        title: "Book a consultation or ask a question.",
-        body: "Keep this page direct and easy to use. Questions are welcome. No pressure."
+        title: "Book a Free In-Home Consultation or Ask a Question",
+        body: "Reach out by phone, email, or online booking. Questions are welcome, and there is no pressure."
       },
       cards: {
         headshotAlt: "Professional headshot of the advisor.",
