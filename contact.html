@@ -16,8 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Source+Sans+3:wght@400;600;700;800&amp;display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://assets.calendly.com" crossorigin />
+    <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
     <link rel="stylesheet" href="styles.css" />
     <script src="content-config.js"></script>
+    <script defer src="https://assets.calendly.com/assets/external/widget.js" data-calendly-script="true"></script>
     <script defer src="script.js"></script>
   </head>
   <body data-page="contact">
@@ -64,7 +67,12 @@
 
           <div class="stack">
             <div class="calendly-shell">
-              <div class="calendly-inline-widget" data-calendly-inline></div>
+              <div
+                class="calendly-inline-widget"
+                data-calendly-inline
+                data-config-url="calendlyUrl"
+                data-url="https://calendly.com/parkerjohnstewart/30min"
+              ></div>
             </div>
             <div>
               <a

@@ -129,6 +129,11 @@ function bindConfig() {
     const value = SITE_CONFIG[element.dataset.configSrc];
     if (value) element.setAttribute("src", value);
   });
+
+  document.querySelectorAll("[data-config-url]").forEach((element) => {
+    const value = SITE_CONFIG[element.dataset.configUrl];
+    if (value) element.setAttribute("data-url", value);
+  });
 }
 
 function bindContent() {
@@ -230,22 +235,11 @@ function initCalendlyButtons() {
       document.head.appendChild(script);
     });
 
-  inlineWidgets.forEach(async (widget) => {
+  inlineWidgets.forEach((widget) => {
     widget.setAttribute("data-url", SITE_CONFIG.calendlyUrl);
 
     if (hasPlaceholder) {
       widget.innerHTML = '<div class="note">Replace the Calendly URL in <code>content-config.js</code> to show the scheduler here.</div>';
-      return;
-    }
-
-    await loadScript();
-    if (!widget.dataset.loaded) {
-      widget.dataset.loaded = "true";
-      window.Calendly.initInlineWidget({
-        url: SITE_CONFIG.calendlyUrl,
-        parentElement: widget,
-        resize: true
-      });
     }
   });
 
